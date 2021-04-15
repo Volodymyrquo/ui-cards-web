@@ -70,7 +70,7 @@ const FirstForm:FC<PropsType> = ({ className }) => {
 
   return (
     <div className={className}>
-      <h1 className="h1-title">Wellcome to Sumra Chat</h1>
+      <h1 className="h1-title">Wellcome to Ultainfinity</h1>
       <h2 className="h2-subtitle">Please Login or Sign Up</h2>
       <section>
         <h3 className="h3-label">Sign up with:</h3>

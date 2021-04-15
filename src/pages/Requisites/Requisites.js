@@ -17,11 +17,11 @@ import Preloader from "../../components/Common/Preloader"
 /* const ws = new WebSocket("ws://ws-sandbox.coinapi.io/v1/")
  */
 const Requisites = () => {
-  useEffect(() => {
+  /* useEffect(() => {
     ws.addEventListener("message", e => {
       console.log(e)
     })
-  }, [])
+  }, []) */
 
   const message = JSON.stringify({
     type: "hello",
