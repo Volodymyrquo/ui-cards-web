@@ -82,6 +82,12 @@ export const fetchListCardTypes = async () => {
     }
 
 
+    export const fetchListCardTypesFake = async () => {
+      const response = await axios.get(`http://localhost:3000/db`)
+      return response
+    }
+
+
 
 /* 
 export const fetchListCardTypes = async () => {
